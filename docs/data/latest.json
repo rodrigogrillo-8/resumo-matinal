@@ -1,115 +1,46 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-21T09:00:00-03:00",
+  "generatedAt": "2026-08-21T16:46:44-03:00",
   "timezone": "America/Sao_Paulo",
   "dayDate": "Sexta-feira · 21 de agosto de 2026",
   "dayShape": "NORMAL",
-  "headline": "Brief de exemplo — nada aqui aconteceu de verdade.",
+  "headline": "Duas aulas emendadas até quase uma, Rodrigo — a tarde fica toda por sua conta.",
   "events": [
     {
-      "title": "Café com o Sr. Nenhures",
-      "start": "2026-08-21T07:00:00-03:00",
-      "end": "2026-08-21T08:00:00-03:00",
-      "weight": "full"
-    },
-    {
-      "title": "Oficina de Coisas Inventadas",
+      "title": "Tecnologia, Dados e Negócios",
       "start": "2026-08-21T09:00:00-03:00",
       "end": "2026-08-21T10:50:00-03:00",
       "weight": "full"
     },
     {
-      "title": "Chamada com o Departamento Imaginário",
-      "start": "2026-08-21T10:30:00-03:00",
-      "end": "2026-08-21T11:30:00-03:00",
-      "weight": "light"
-    },
-    {
-      "title": "Ensaio da Orquestra de Mentirinha",
-      "start": "2026-08-21T19:30:00-03:00",
-      "end": "2026-08-21T21:00:00-03:00",
+      "title": "Estatística II",
+      "start": "2026-08-21T11:00:00-03:00",
+      "end": "2026-08-21T12:50:00-03:00",
       "weight": "full"
     }
   ],
   "acts": [
     {
-      "time": "7 – 11:30 AM",
-      "text": "A manhã inteira ocupada, com dois compromissos se encavalando lá pelas onze."
+      "time": "9 – 10:50 AM",
+      "text": "Tecnologia, Dados e Negócios abre o dia, quase duas horas seguidas."
     },
     {
-      "time": "11:30 AM – 7:30 PM",
-      "text": "Um vão longo e sem nada marcado — o maior respiro deste dia inventado."
+      "time": "11 AM – 12:50 PM",
+      "text": "Estatística II emenda com dez minutos de intervalo — o bloco vai direto até quase uma."
     },
     {
-      "time": "7:30 – 9 PM",
-      "text": "O ensaio fecha o dia bem depois do jantar."
+      "time": "Depois das 12:50 PM",
+      "text": "Nada marcado até o fim do dia. A tarde inteira é sua."
     }
   ],
   "needsAttention": [
     {
-      "title": "Confirmar a sala do ensaio",
-      "text": "Ninguém respondeu ainda qual das duas salas está reservada.",
-      "linkText": "no e-mail de exemplo",
-      "href": "https://example.com/mensagem-de-exemplo"
-    },
-    {
-      "title": "Decidir sobre a chamada das 10:30",
-      "text": "Ela colide com a oficina; dá para mandar alguém no seu lugar.",
-      "linkText": "convite sem link, de propósito"
+      "title": "Decidir sobre a Feira de Carreiras",
+      "text": "A FGV marcou para o dia 26 e ainda dá tempo de se organizar.",
+      "linkText": "no e-mail da escola",
+      "href": "https://mail.google.com/mail/u/0/#inbox/1a024602a36804a2"
     }
   ],
-  "resolved": [
-    {
-      "title": "Pagamento fictício compensado",
-      "text": "Entrou ontem à noite, nada a fazer.",
-      "linkText": "comprovante de exemplo",
-      "href": "https://example.com/comprovante-de-exemplo"
-    }
-  ],
-  "sections": [
-    {
-      "heading": "Mercados de Faz de Conta",
-      "kind": "rows",
-      "rows": [
-        {
-          "label": "Índice Fictício",
-          "delta": "+1,20%",
-          "dir": "up",
-          "value": "100.000 pontos — número redondo porque é invenção"
-        },
-        {
-          "label": "Moeda Imaginária",
-          "delta": "-0,45%",
-          "dir": "down",
-          "value": "3,00 unidades — cotação de mentirinha"
-        },
-        {
-          "label": "Barril de Nada",
-          "delta": "0,00%",
-          "dir": "flat",
-          "value": "50,00 por barril — parado desde sempre"
-        }
-      ],
-      "sourceNote": "Dados inventados em 20/08/2026",
-      "sources": [
-        {
-          "label": "Fonte de Exemplo",
-          "href": "https://example.com/fonte"
-        },
-        {
-          "label": "Outra Fonte, sem link"
-        }
-      ]
-    },
-    {
-      "heading": "Uma seção em prosa",
-      "kind": "prose",
-      "text": "Este parágrafo existe só para mostrar como fica um bloco de texto corrido dentro do resumo.\n\nO segundo parágrafo prova que a quebra dupla de linha vira dois parágrafos de verdade, e não um bloco só."
-    },
-    {
-      "heading": "Seção que deve sumir inteira",
-      "kind": "rows",
-      "rows": []
-    }
-  ]
+  "resolved": [],
+  "sections": []
 }
