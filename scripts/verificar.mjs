@@ -360,15 +360,25 @@ console.log('\nCriterios de aceite\n');
   await page.reload({ waitUntil: 'domcontentloaded' });
   await page.waitForSelector('#pagina:not([hidden])', { timeout: 10000 });
 
+  // Confere contra o brief que esta publicado agora, nao contra numeros fixos.
+  const publicado = JSON.parse(await readFile(join(docs, 'data/latest.json'), 'utf8'));
+  const esperado = {
+    headline: publicado.headline,
+    atos: (publicado.acts || []).length,
+    circulos: (publicado.events || []).length,
+  };
+
   const offline = await page.evaluate(() => ({
     headline: document.getElementById('headline').textContent,
     atos: document.querySelectorAll('#atos li').length,
-    secoes: document.querySelectorAll('.secao').length,
     circulos: document.querySelectorAll('#terreno > circle').length,
     fonte: document.fonts.check('600 32px Fraunces'),
   }));
-  checar('brief completo offline', offline.headline.length > 0 && offline.atos === 3
-    && offline.secoes === 2 && offline.circulos === 4, JSON.stringify(offline));
+  checar('brief completo offline',
+    offline.headline === esperado.headline
+    && offline.atos === esperado.atos
+    && offline.circulos === esperado.circulos,
+    `esperava ${JSON.stringify(esperado)}, veio ${JSON.stringify(offline)}`);
   checar('fonte embutida tambem offline', offline.fonte);
   await page.screenshot({ path: join(capturas, 'iphone-offline.png'), fullPage: true });
   await ctx.close();

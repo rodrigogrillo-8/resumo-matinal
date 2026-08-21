@@ -234,16 +234,41 @@ function falhar(linhas) {
 
 /* ------------------------------------------------------------- gravacao */
 
+const dormir = (ms) => new Promise((ok) => setTimeout(ok, ms));
+
 // Grava num temporario e so entao troca de lugar: um erro no meio do caminho
 // nunca deixa um latest.json pela metade.
-function gravarAtomico(caminho, conteudo) {
+//
+// No Windows o rename esbarra em EPERM/EBUSY quando o antivirus ou o indexador
+// esta com o arquivo aberto por um instante. E transitorio: insistir resolve.
+async function gravarAtomico(caminho, conteudo) {
   const temp = caminho + '.tmp';
+  const TRANSITORIO = ['EPERM', 'EBUSY', 'EACCES', 'ENOTEMPTY'];
+
   try {
     writeFileSync(temp, conteudo, 'utf8');
-    renameSync(temp, caminho);
+
+    let espera = 20;
+    for (let tentativa = 1; ; tentativa++) {
+      try {
+        renameSync(temp, caminho);
+        return;
+      } catch (e) {
+        if (!TRANSITORIO.includes(e.code) || tentativa >= 8) throw e;
+        await dormir(espera);
+        espera = Math.min(espera * 2, 500);
+      }
+    }
   } catch (e) {
+    if (!TRANSITORIO.includes(e.code)) {
+      try { unlinkSync(temp); } catch (_) { /* ja era */ }
+      throw e;
+    }
+    // Ultimo recurso: o conteudo ja passou pelo validador e sao poucos KB,
+    // entao gravar direto e melhor do que nao publicar o resumo do dia.
+    console.error(`aviso: rename bloqueado (${e.code}) apos 8 tentativas; gravando direto.`);
+    writeFileSync(caminho, conteudo, 'utf8');
     try { unlinkSync(temp); } catch (_) { /* ja era */ }
-    throw e;
   }
 }
 
@@ -274,8 +299,8 @@ const dia = brief.generatedAt.slice(0, 10);
 mkdirSync(dirname(destino), { recursive: true });
 mkdirSync(pastaArquivo, { recursive: true });
 
-gravarAtomico(destino, conteudo);
-gravarAtomico(resolve(pastaArquivo, `${dia}.json`), conteudo);
+await gravarAtomico(destino, conteudo);
+await gravarAtomico(resolve(pastaArquivo, `${dia}.json`), conteudo);
 
 const nEventos = Array.isArray(brief.events) ? brief.events.length : 0;
 console.log(`Publicado: ${brief.dayDate}  ·  ${brief.dayShape}  ·  ${nEventos} evento(s)`);
