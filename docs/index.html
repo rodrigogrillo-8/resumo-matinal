@@ -1,0 +1,62 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Resumo Matinal</title>
+<meta name="description" content="Seu briefing diário, em trinta segundos.">
+<meta name="color-scheme" content="light dark">
+
+<meta name="theme-color" content="#F9F9F7" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#1B1A17" media="(prefers-color-scheme: dark)">
+
+<link rel="manifest" href="./manifest.webmanifest">
+
+<!-- iOS: o manifest sozinho nao cobre nada disto -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="default">
+<meta name="apple-mobile-web-app-title" content="Resumo">
+<link rel="apple-touch-icon" href="./icons/apple-touch-180.png">
+
+<link rel="icon" href="./icons/icone-192.png" type="image/png">
+<link rel="stylesheet" href="./styles.css">
+<script type="module" src="./app.js"></script>
+</head>
+<body>
+
+<main id="pagina" hidden>
+
+  <section class="faixa faixa-alta">
+    <div class="conteudo">
+      <p class="aviso" id="aviso" hidden></p>
+      <p class="data" id="data"></p>
+      <h1 class="headline" id="headline"></h1>
+    </div>
+
+    <svg class="terreno" id="terreno" viewBox="0 0 840 170"
+         xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Relevo do dia"></svg>
+
+    <div class="conteudo">
+      <ol class="atos" id="atos"></ol>
+    </div>
+  </section>
+
+  <section class="faixa faixa-baixa">
+    <div class="conteudo">
+      <div id="listas"></div>
+      <div id="secoes"></div>
+    </div>
+  </section>
+
+</main>
+
+<div class="estado" id="estado" hidden>
+  <div class="conteudo">
+    <p class="estado-linha" id="estado-linha-1"></p>
+    <p class="estado-linha estado-linha-fraca" id="estado-linha-2"></p>
+  </div>
+</div>
+
+</body>
+</html>

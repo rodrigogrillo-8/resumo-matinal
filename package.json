@@ -1,0 +1,18 @@
+{
+  "name": "resumo-matinal",
+  "version": "1.0.0",
+  "private": true,
+  "description": "PWA de leitura que renderiza o briefing diario publicado em docs/data/latest.json.",
+  "license": "MIT",
+  "scripts": {
+    "dev": "serve docs",
+    "publicar": "node scripts/publicar.mjs",
+    "icones": "node scripts/gerar-icones.mjs",
+    "fonte": "node scripts/embutir-fonte.mjs",
+    "verificar": "node scripts/verificar.mjs"
+  },
+  "devDependencies": {
+    "playwright": "^1.62.1",
+    "sharp": "^0.34.5"
+  }
+}
