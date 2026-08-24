@@ -1,10 +1,10 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-08-24T07:30:00-03:00",
+  "generatedAt": "2026-08-24T09:20:00-03:00",
   "timezone": "America/Sao_Paulo",
   "dayDate": "Segunda-feira · 24 de agosto de 2026",
   "dayShape": "HEAVY",
-  "headline": "Aulas quase sem pausa das 9 às 17h, Rodrigo — e a noite ainda tem a primeira fase do processo seletivo no mesmo prédio.",
+  "headline": "Aulas de manhã até quase 13h, um respiro à tarde, e a prova do CJE às 19h fecha o dia.",
   "events": [
     {
       "title": "Direito Empresarial",
@@ -27,29 +27,28 @@
   ],
   "acts": [
     {
-      "time": "9 – 12:50",
-      "text": "Duas aulas emendadas abrem o dia com quase quatro horas seguidas de sala."
+      "time": "9 – 10:50 AM",
+      "text": "O dia abre direto em aula, sem espaço pra esquentar."
     },
     {
-      "time": "12:50 – 3 PM",
-      "text": "O único respiro real do dia, pouco mais de duas horas antes de voltar."
+      "time": "11 – 12:50 PM",
+      "text": "Emenda em outra aula, fechando o bloco da manhã."
     },
     {
-      "time": "3 – 4:50 PM",
-      "text": "Mais uma aula fecha o bloco acadêmico da tarde."
+      "time": "1 – 3 PM",
+      "text": "Janela livre no meio da tarde para almoçar e respirar."
     },
     {
-      "time": "7 PM",
-      "text": "Direto depois das aulas, a noite ainda reserva um compromisso importante fora da rotina."
+      "time": "3 – 6:50 PM",
+      "text": "Última aula da tarde, depois a noite fica pra prova."
     }
   ],
   "needsAttention": [
     {
-      "title": "Primeira fase do processo seletivo às 19h",
-      "text": "Você está alocado na sala 608 do Edifício John Kennedy, logo após as aulas.",
-      "linkText": "no e-mail de alocação"
+      "title": "Prova do CJE hoje às 19h",
+      "text": "Primeira fase do processo seletivo, sala 608 da EASP — não está na sua agenda.",
+      "linkText": "no e-mail de ontem à noite"
     }
   ],
-  "resolved": [],
-  "sections": []
+  "resolved": []
 }
