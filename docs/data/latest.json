@@ -1,16 +1,12 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-29T11:28:00-03:00",
+  "generatedAt": "2026-09-29T11:29:00-03:00",
   "timezone": "America/Sao_Paulo",
   "dayDate": "Terça-feira · 29 de setembro de 2026",
   "dayShape": "OPEN",
-  "headline": "Hoje não consegui ler sua agenda nem seu e-mail, Rodrigo — confira o dia direto no calendário antes de contar com a tarde livre.",
+  "headline": "Hoje não consegui ler sua agenda nem seu e-mail, Rodrigo — confira o calendário direto antes de contar com o dia livre.",
   "events": [],
-  "needsAttention": [
-    {
-      "title": "Reconectar agenda e e-mail",
-      "text": "Os conectores do Google recusaram a credencial nesta manhã, então este resumo saiu sem dados."
-    }
-  ],
+  "acts": [],
+  "needsAttention": [],
   "resolved": []
 }
