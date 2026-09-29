@@ -1,38 +1,16 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-09-25T11:52:00-03:00",
+  "generatedAt": "2026-09-29T11:28:00-03:00",
   "timezone": "America/Sao_Paulo",
-  "dayDate": "Sexta-feira · 25 de setembro de 2026",
-  "dayShape": "NORMAL",
-  "headline": "Duas aulas seguidas até quase uma, Rodrigo — depois a sexta é toda sua, com a caixa de entrada tranquila.",
-  "events": [
+  "dayDate": "Terça-feira · 29 de setembro de 2026",
+  "dayShape": "OPEN",
+  "headline": "Hoje não consegui ler sua agenda nem seu e-mail, Rodrigo — confira o dia direto no calendário antes de contar com a tarde livre.",
+  "events": [],
+  "needsAttention": [
     {
-      "title": "Tecnologia, Dados e Negócios",
-      "start": "2026-09-25T09:00:00-03:00",
-      "end": "2026-09-25T10:50:00-03:00",
-      "weight": "full"
-    },
-    {
-      "title": "Estatística II",
-      "start": "2026-09-25T11:00:00-03:00",
-      "end": "2026-09-25T12:50:00-03:00",
-      "weight": "full"
+      "title": "Reconectar agenda e e-mail",
+      "text": "Os conectores do Google recusaram a credencial nesta manhã, então este resumo saiu sem dados."
     }
   ],
-  "acts": [
-    {
-      "time": "9 – 10:50 AM",
-      "text": "A manhã abre em sala, num bloco mais conceitual para aquecer."
-    },
-    {
-      "time": "11 AM – 12:50 PM",
-      "text": "Só dez minutos de fôlego antes do segundo bloco, o mais puxado de números."
-    },
-    {
-      "time": "12:50 – 11:59 PM",
-      "text": "A partir do almoço não há nada marcado, então a tarde e a noite ficam livres para o que você escolher."
-    }
-  ],
-  "needsAttention": [],
   "resolved": []
 }
