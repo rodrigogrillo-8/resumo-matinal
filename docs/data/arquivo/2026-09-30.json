@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-09-30T09:40:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "dayDate": "Quarta-feira · 30 de setembro de 2026",
+  "dayShape": "HEAVY",
+  "headline": "Três aulas espalhadas até quase cinco, Rodrigo — o respiro de verdade é o almoço entre uma e três.",
+  "events": [
+    {
+      "title": "Direito Empresarial",
+      "start": "2026-09-30T09:00:00-03:00",
+      "end": "2026-09-30T10:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Contabilidade Financeira",
+      "start": "2026-09-30T11:00:00-03:00",
+      "end": "2026-09-30T12:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Estudos Organizacionais",
+      "start": "2026-09-30T15:00:00-03:00",
+      "end": "2026-09-30T16:50:00-03:00",
+      "weight": "full"
+    }
+  ],
+  "acts": [
+    {
+      "time": "9 – 12:50 PM",
+      "text": "Manhã emendada em sala, com só dez minutos de troca entre um bloco e outro."
+    },
+    {
+      "time": "12:50 – 3 PM",
+      "text": "Pouco mais de duas horas livres no meio do dia para almoçar e respirar."
+    },
+    {
+      "time": "3 – 4:50 PM",
+      "text": "Último bloco da tarde fecha a agenda, e a noite fica livre."
+    }
+  ],
+  "needsAttention": [],
+  "resolved": []
+}
