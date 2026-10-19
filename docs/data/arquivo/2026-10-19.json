@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-19T11:59:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "dayDate": "Segunda-feira · 19 de outubro de 2026",
+  "dayShape": "HEAVY",
+  "headline": "Manhã emendada em sala até quase uma, Rodrigo — depois um respiro de duas horas antes da última aula.",
+  "events": [
+    {
+      "title": "Direito Empresarial",
+      "start": "2026-10-19T09:00:00-03:00",
+      "end": "2026-10-19T10:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Contabilidade Financeira",
+      "start": "2026-10-19T11:00:00-03:00",
+      "end": "2026-10-19T12:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Estudos Organizacionais",
+      "start": "2026-10-19T15:00:00-03:00",
+      "end": "2026-10-19T16:50:00-03:00",
+      "weight": "full"
+    }
+  ],
+  "acts": [
+    {
+      "time": "9 AM – 12:50 PM",
+      "text": "Dois blocos seguidos em sala, com só dez minutos de troca entre eles."
+    },
+    {
+      "time": "12:50 – 3 PM",
+      "text": "Pouco mais de duas horas livres para almoçar com calma e recarregar."
+    },
+    {
+      "time": "3 – 4:50 PM",
+      "text": "Último bloco da tarde, e a agenda fecha antes das cinco."
+    }
+  ],
+  "needsAttention": [],
+  "resolved": []
+}
