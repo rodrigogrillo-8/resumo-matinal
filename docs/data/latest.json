@@ -1,50 +1,50 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-20T13:38:00-03:00",
+  "generatedAt": "2026-10-21T09:48:00-03:00",
   "timezone": "America/Sao_Paulo",
-  "dayDate": "Terça-feira · 20 de outubro de 2026",
+  "dayDate": "Quarta-feira · 21 de outubro de 2026",
   "dayShape": "HEAVY",
-  "headline": "Uma aula antes do almoço e duas emendadas no fim da tarde, Rodrigo — o miolo do dia, até as três, é seu.",
+  "headline": "Manhã inteira de aula emendada até quase uma, Rodrigo — depois um intervalo longo antes da última aula às três.",
   "events": [
     {
-      "title": "Estatística II",
-      "start": "2026-10-20T11:00:00-03:00",
-      "end": "2026-10-20T12:50:00-03:00",
+      "title": "Direito Empresarial",
+      "start": "2026-10-21T09:00:00-03:00",
+      "end": "2026-10-21T10:50:00-03:00",
       "weight": "full"
     },
     {
-      "title": "Matemática Aplicada I",
-      "start": "2026-10-20T15:00:00-03:00",
-      "end": "2026-10-20T16:50:00-03:00",
+      "title": "Contabilidade Financeira",
+      "start": "2026-10-21T11:00:00-03:00",
+      "end": "2026-10-21T12:50:00-03:00",
       "weight": "full"
     },
     {
-      "title": "Psicologia",
-      "start": "2026-10-20T17:00:00-03:00",
-      "end": "2026-10-20T18:50:00-03:00",
+      "title": "Estudos Organizacionais",
+      "start": "2026-10-21T15:00:00-03:00",
+      "end": "2026-10-21T16:50:00-03:00",
       "weight": "full"
     }
   ],
   "acts": [
     {
-      "time": "11 AM – 12:50 PM",
-      "text": "Um bloco só de manhã, com o começo do dia ainda folgado."
+      "time": "9 AM – 12:50 PM",
+      "text": "Dois blocos colados com só dez minutos de respiro entre eles."
     },
     {
       "time": "12:50 – 3 PM",
-      "text": "Pouco mais de duas horas livres para almoçar e adiantar alguma coisa."
+      "text": "Pouco mais de duas horas livres para almoçar e dar conta do que ficou pendente."
     },
     {
-      "time": "3 – 6:50 PM",
-      "text": "Dois blocos quase colados que só soltam perto das sete da noite."
+      "time": "3 – 4:50 PM",
+      "text": "Última aula do dia, e depois dela a noite fica sem compromisso."
     }
   ],
-  "needsAttention": [],
-  "resolved": [
+  "needsAttention": [
     {
-      "title": "Reserva de viagem confirmada",
-      "text": "Chegou encaminhada a confirmação de uma reserva, sem nada pendente da sua parte.",
-      "linkText": "no e-mail de hoje"
+      "title": "Olhar o pitch que um colega mandou",
+      "text": "Chegou ontem à tarde um arquivo de apresentação, ainda não aberto.",
+      "linkText": "no e-mail de ontem"
     }
-  ]
+  ],
+  "resolved": []
 }
