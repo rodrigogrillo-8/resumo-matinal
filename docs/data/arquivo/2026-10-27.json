@@ -1,0 +1,48 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-27T09:29:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "dayDate": "Terça-feira · 27 de outubro de 2026",
+  "dayShape": "HEAVY",
+  "headline": "Manhã livre até as onze, Rodrigo — depois são três aulas que só soltam você perto das sete.",
+  "events": [
+    {
+      "title": "Estatística II",
+      "start": "2026-10-27T11:00:00-03:00",
+      "end": "2026-10-27T12:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Matemática Aplicada I",
+      "start": "2026-10-27T15:00:00-03:00",
+      "end": "2026-10-27T16:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Psicologia",
+      "start": "2026-10-27T17:00:00-03:00",
+      "end": "2026-10-27T18:50:00-03:00",
+      "weight": "full"
+    }
+  ],
+  "acts": [
+    {
+      "time": "9 – 11 AM",
+      "text": "Janela aberta para revisar ou adiantar o que estiver pendente antes de sair."
+    },
+    {
+      "time": "11 AM – 12:50 PM",
+      "text": "Primeiro bloco de aula, puxado para o lado quantitativo."
+    },
+    {
+      "time": "12:50 – 3 PM",
+      "text": "Pausa longa no meio do dia, boa para almoçar com calma e respirar."
+    },
+    {
+      "time": "3 – 6:50 PM",
+      "text": "Duas aulas coladas, com só dez minutos de troca entre elas até o fim da tarde."
+    }
+  ],
+  "needsAttention": [],
+  "resolved": []
+}
