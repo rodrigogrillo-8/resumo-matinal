@@ -1,6 +1,6 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-10-27T09:29:00-03:00",
+  "generatedAt": "2026-10-27T09:30:00-03:00",
   "timezone": "America/Sao_Paulo",
   "dayDate": "Terça-feira · 27 de outubro de 2026",
   "dayShape": "HEAVY",
@@ -28,19 +28,19 @@
   "acts": [
     {
       "time": "9 – 11 AM",
-      "text": "Janela aberta para revisar ou adiantar o que estiver pendente antes de sair."
+      "text": "Janela aberta para revisar, treinar ou resolver pendências antes de sair."
     },
     {
       "time": "11 AM – 12:50 PM",
-      "text": "Primeiro bloco de aula, puxado para o lado quantitativo."
+      "text": "Primeiro bloco de aula, puxado em números logo de cara."
     },
     {
       "time": "12:50 – 3 PM",
-      "text": "Pausa longa no meio do dia, boa para almoçar com calma e respirar."
+      "text": "Intervalo longo no meio do dia, bom para almoçar com calma e adiantar exercício."
     },
     {
       "time": "3 – 6:50 PM",
-      "text": "Duas aulas coladas, com só dez minutos de troca entre elas até o fim da tarde."
+      "text": "Duas aulas coladas, com só dez minutos de respiro entre elas, fecham a tarde."
     }
   ],
   "needsAttention": [],
