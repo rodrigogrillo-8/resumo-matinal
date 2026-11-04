@@ -1,0 +1,44 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-11-04T10:05:00-03:00",
+  "timezone": "America/Sao_Paulo",
+  "dayDate": "Quarta-feira · 4 de novembro de 2026",
+  "dayShape": "HEAVY",
+  "headline": "Duas aulas emendadas até quase uma, Rodrigo, uma folga longa no meio e mais uma aula para fechar às cinco.",
+  "events": [
+    {
+      "title": "Direito Empresarial",
+      "start": "2026-11-04T09:00:00-03:00",
+      "end": "2026-11-04T10:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Contabilidade Financeira",
+      "start": "2026-11-04T11:00:00-03:00",
+      "end": "2026-11-04T12:50:00-03:00",
+      "weight": "full"
+    },
+    {
+      "title": "Estudos Organizacionais",
+      "start": "2026-11-04T15:00:00-03:00",
+      "end": "2026-11-04T16:50:00-03:00",
+      "weight": "full"
+    }
+  ],
+  "acts": [
+    {
+      "time": "9 AM – 12:50 PM",
+      "text": "Manhã inteira em sala, com só dez minutos de respiro entre uma aula e outra."
+    },
+    {
+      "time": "12:50 – 3 PM",
+      "text": "Pausa de duas horas para almoçar sem pressa e adiantar alguma leitura."
+    },
+    {
+      "time": "3 – 4:50 PM",
+      "text": "Um último bloco no meio da tarde, e depois das cinco a agenda fica vazia."
+    }
+  ],
+  "needsAttention": [],
+  "resolved": []
+}
