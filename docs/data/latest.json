@@ -1,42 +1,42 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-10T19:33:00-03:00",
+  "generatedAt": "2026-11-11T12:16:00-03:00",
   "timezone": "America/Sao_Paulo",
-  "dayDate": "Terça-feira · 10 de novembro de 2026",
+  "dayDate": "Quarta-feira · 11 de novembro de 2026",
   "dayShape": "HEAVY",
-  "headline": "Uma aula no fim da manhã, Rodrigo, uma pausa longa no almoço e duas aulas emendadas até quase sete.",
+  "headline": "Duas aulas emendadas até quase uma, Rodrigo, almoço folgado e mais um bloco que fecha a tarde perto das cinco.",
   "events": [
     {
-      "title": "Estatística II",
-      "start": "2026-11-10T11:00:00-03:00",
-      "end": "2026-11-10T12:50:00-03:00",
+      "title": "Direito Empresarial",
+      "start": "2026-11-11T09:00:00-03:00",
+      "end": "2026-11-11T10:50:00-03:00",
       "weight": "full"
     },
     {
-      "title": "Matemática Aplicada I",
-      "start": "2026-11-10T15:00:00-03:00",
-      "end": "2026-11-10T16:50:00-03:00",
+      "title": "Contabilidade Financeira",
+      "start": "2026-11-11T11:00:00-03:00",
+      "end": "2026-11-11T12:50:00-03:00",
       "weight": "full"
     },
     {
-      "title": "Psicologia",
-      "start": "2026-11-10T17:00:00-03:00",
-      "end": "2026-11-10T18:50:00-03:00",
+      "title": "Estudos Organizacionais",
+      "start": "2026-11-11T15:00:00-03:00",
+      "end": "2026-11-11T16:50:00-03:00",
       "weight": "full"
     }
   ],
   "acts": [
     {
-      "time": "11 AM – 12:50 PM",
-      "text": "A manhã começa solta e o primeiro bloco em sala só chega perto do almoço."
+      "time": "9 AM – 12:50 PM",
+      "text": "Manhã inteira em sala, com só dez minutos de intervalo entre um bloco e outro."
     },
     {
       "time": "12:50 – 3 PM",
-      "text": "Pouco mais de duas horas livres para comer com calma e revisar alguma coisa."
+      "text": "Pouco mais de duas horas livres para almoçar sem pressa e respirar."
     },
     {
-      "time": "3 – 6:50 PM",
-      "text": "Tarde inteira em sala, com só dez minutos de respiro entre um bloco e outro."
+      "time": "3 – 4:50 PM",
+      "text": "Último bloco da quarta, e depois a noite fica toda por sua conta."
     }
   ],
   "needsAttention": [],
