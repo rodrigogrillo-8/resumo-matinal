@@ -1,51 +1,58 @@
 {
   "schemaVersion": 1,
-  "generatedAt": "2026-11-16T21:51:00-03:00",
+  "generatedAt": "2026-11-17T19:46:00-03:00",
   "timezone": "America/Sao_Paulo",
-  "dayDate": "Segunda-feira · 16 de novembro de 2026",
+  "dayDate": "Terça-feira · 17 de novembro de 2026",
   "dayShape": "HEAVY",
-  "headline": "Duas aulas emendadas até quase uma, Rodrigo, uma pausa longa no meio do dia e mais um bloco que fecha a tarde perto das cinco.",
+  "headline": "Manhã curta com uma aula só, Rodrigo, e uma tarde que emenda dois blocos até quase sete da noite.",
   "events": [
     {
-      "title": "Direito Empresarial",
-      "start": "2026-11-16T09:00:00-03:00",
-      "end": "2026-11-16T10:50:00-03:00",
+      "title": "Estatística II",
+      "start": "2026-11-17T11:00:00-03:00",
+      "end": "2026-11-17T12:50:00-03:00",
       "weight": "full"
     },
     {
-      "title": "Contabilidade Financeira",
-      "start": "2026-11-16T11:00:00-03:00",
-      "end": "2026-11-16T12:50:00-03:00",
+      "title": "Matemática Aplicada I",
+      "start": "2026-11-17T15:00:00-03:00",
+      "end": "2026-11-17T16:50:00-03:00",
       "weight": "full"
     },
     {
-      "title": "Estudos Organizacionais",
-      "start": "2026-11-16T15:00:00-03:00",
-      "end": "2026-11-16T16:50:00-03:00",
+      "title": "Psicologia",
+      "start": "2026-11-17T17:00:00-03:00",
+      "end": "2026-11-17T18:50:00-03:00",
       "weight": "full"
     }
   ],
   "acts": [
     {
-      "time": "9 AM – 12:50 PM",
-      "text": "A manhã inteira vai em sala, com só dez minutos de respiro entre uma aula e outra."
+      "time": "11 AM – 12:50 PM",
+      "text": "O dia começa tarde, com a manhã livre e um único bloco de sala antes do almoço."
     },
     {
       "time": "12:50 – 3 PM",
-      "text": "Pouco mais de duas horas livres para almoçar sem pressa e adiantar alguma leitura."
+      "text": "Pouco mais de duas horas soltas para almoçar e adiantar a revisão antes das provas finais."
     },
     {
-      "time": "3 – 4:50 PM",
-      "text": "Último bloco do dia, e depois disso a noite fica livre."
+      "time": "3 – 6:50 PM",
+      "text": "A tarde vira uma maratona de quase quatro horas, com só dez minutos de intervalo no meio."
     }
   ],
   "needsAttention": [
     {
-      "title": "Responder a avaliação de disciplinas",
-      "text": "A faculdade mandou um lembrete do questionário de avaliação deste semestre.",
-      "linkText": "no e-mail de hoje",
-      "href": "https://mail.google.com/mail/?authuser=0#all/thread-f:1882038904283306226"
+      "title": "Conferir o calendário de provas finais",
+      "text": "A coordenação publicou hoje as datas das finais, que começam na próxima segunda.",
+      "linkText": "no e-mail da coordenação",
+      "href": "https://mail.google.com/mail/?authuser=0#all/thread-f:1882119314010994783"
     }
   ],
-  "resolved": []
+  "resolved": [
+    {
+      "title": "Alteração do voo confirmada",
+      "text": "O pedido de mudança foi processado e o novo bilhete já chegou.",
+      "linkText": "no e-mail de ontem à noite",
+      "href": "https://mail.google.com/mail/?authuser=0#all/thread-f:1882064987181140379"
+    }
+  ]
 }
